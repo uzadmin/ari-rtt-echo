@@ -1,0 +1,36 @@
+ARI Service Load Test Summary Report
+===================================
+Generated: Sat Aug 30 13:48:51 MSK 2025
+Project: ARI Service with RTP Latency Measurement
+Location: /Users/3knet3knet/4/v3
+
+Test Configuration:
+- Test Type: REGULAR TEST
+- Concurrent Calls: 10
+- Test Duration: 60 seconds
+- Call Duration: 30 seconds
+- Echo Server: 127.0.0.1:8080
+- ARI Service: 0.0.0.0:4500-50000
+
+Test Result: FAILED
+
+Files Generated:
+- ARI Service Log: logs/ari-service.log
+- Echo Server Log: logs/echo-server.log
+- Load Test Results: reports/load_test_report.json
+
+Final Metrics:
+No metrics available
+
+To view detailed results:
+- Load test: cat reports/load_test_report.json
+- Service logs: cat logs/ari-service.log
+
+To restart services:
+- ARI Service: ./bin/ari-service
+- Echo Server: ./bin/echo-server
+- Load Test: ./bin/load-test
+
+Health Check:
+- ARI Service: curl http://localhost:9090/health
+- Metrics: curl http://localhost:9090/metrics

@@ -1,0 +1,389 @@
+[Aug 30 13:20:11] Asterisk 20.15.2 built by root @ 6ec5474ec64a on a aarch64 running Linux on 2025-08-30 13:12:25 UTC
+[Aug 30 13:20:11] NOTICE[38100] loader.c: 359 modules will be loaded.
+[Aug 30 13:20:11] NOTICE[38100] cdr.c: CDR simple logging enabled.
+[Aug 30 13:20:11] NOTICE[38100] indications.c: Default country for indication tones: us
+[Aug 30 13:20:11] NOTICE[38100] indications.c: Setting default indication country to 'us'
+[Aug 30 13:20:11] WARNING[38100] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 30 13:20:11] NOTICE[38100] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 30 13:20:11] NOTICE[38100] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 30 13:20:11] NOTICE[38100] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 30 13:20:11] WARNING[38100] loader.c: Some non-required modules failed to load.
+[Aug 30 13:20:11] WARNING[38100] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 30 13:20:11] WARNING[38100] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 30 13:20:11] WARNING[38100] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_icalendar.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'cel_odbc.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/cel_odbc.so: undefined symbol: ast_odbc_backslash_is_escape
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_exchange.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'res_stir_shaken.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/res_stir_shaken.so: undefined symbol: __ast_test_status_update
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_stasis_test.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'codec_amr.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/codec_amr.so: undefined symbol: ast_format_amrwb
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_http_post.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_vp8.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_odbc.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'chan_motif.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/chan_motif.so: undefined symbol: ast_xmpp_client_send_message
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'res_odbc_transaction.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/res_odbc_transaction.so: undefined symbol: ast_odbc_class_get_isolation
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_xmpp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_ews.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'format_ogg_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_tds.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_fax_spandsp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'res_geolocation.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/res_geolocation.so: undefined symbol: __ast_test_status_update
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_calendar_caldav.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_snmp.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'pbx_lua.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_macro.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'res_resolver_unbound.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/res_resolver_unbound.so: undefined symbol: __ast_test_status_update
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_codec2.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'res_pjsip_stir_shaken.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/res_pjsip_stir_shaken.so: undefined symbol: ast_stir_shaken_payload_get_signature
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'res_config_ldap.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'res_format_attr_amr.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/res_format_attr_amr.so: undefined symbol: ast_format_amrwb
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'codec_opus_open_source.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'res_config_odbc.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/res_config_odbc.so: undefined symbol: _ast_odbc_request_obj2
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'func_odbc.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/func_odbc.so: undefined symbol: ast_odbc_ast_str_SQLGetData
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cdr_radius.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'res_pjsip_geolocation.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/res_pjsip_geolocation.so: undefined symbol: ast_geoloc_datastore_set_inheritance
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'cel_pgsql.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'cdr_odbc.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/cdr_odbc.so: undefined symbol: _ast_odbc_request_obj
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' was not compiled with the same compile-time options as this version of Asterisk.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' will not be initialized as it may cause instability.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Module 'app_jack.so' could not be loaded.
+[Aug 30 13:20:11] ERROR[38100] loader.c: Error loading module 'cdr_adaptive_odbc.so': /usr/lib/aarch64-linux-gnu/asterisk/modules/cdr_adaptive_odbc.so: undefined symbol: ast_odbc_backslash_is_escape
+[Aug 30 13:20:11] ERROR[38100] loader.c: cel_sqlite3_custom declined to load.
+[Aug 30 13:20:11] ERROR[38100] loader.c: cdr_sqlite3_custom declined to load.

@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  asterisk:
+    image: ari-service:latest
+    container_name: asterisk-ari
+    ports:
+      - "8088:8088"   # Asterisk HTTP/Ari
+      - "9090:9090"   # ARI Service
+      - "9091:9091"   # ARI Server (metrics)
+      - "5060:5060/udp"  # SIP
+      - "4000:4000/udp"  # Echo server port
+      # RTP ports handled internally, no external exposure needed
+    environment:
+      - ASTERISK_HOST=localhost
+      - ASTERISK_PORT=8088
+      - ASTERISK_USERNAME=ari
+      - ASTERISK_PASSWORD=ari
+      - ARI_USER=asterisk
+      - ARI_PASS=asterisk
+      - APP_NAME=ari-app
+      - BIND_IP=0.0.0.0
+      - SERVICE_PORT=9091
+      - ASTERISK_IP=127.0.0.1
+      - PORT_RANGE=4500-50000  # RTP ports for ARI service
+      - ECHO_HOST=127.0.0.1
+      - ECHO_PORT=4000
+      - METRICS_INTERVAL_SEC=5
+      - ARI_DELAY_MS=100
+      - RTP_DELAY_MS=100
+    volumes:
+      # Mount the entire asterisk configuration directory
+      - ./asterisk:/etc/asterisk
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+      - ./asterisk-logs:/var/log/asterisk
+    privileged: true
+    networks:
+      - ari-network
+
+networks:
+  ari-network:
+    driver: bridge

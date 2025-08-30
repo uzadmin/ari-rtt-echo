@@ -1,0 +1,88 @@
+{
+  "start_time": "2025-08-30T13:49:47.944195126Z",
+  "end_time": "2025-08-30T13:50:47.948956751Z",
+  "duration_ms": 60004,
+  "concurrent_calls": 10,
+  "total_calls": 10,
+  "successful_calls": 10,
+  "failed_calls": 0,
+  "success_rate": 100,
+  "calls_per_second": 0.16665555629624693,
+  "call_details": [
+    {
+      "call_id": "load_test_call_0",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:47.944237751Z",
+      "end_time": "2025-08-30T13:50:47.948742876Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_4",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.349886001Z",
+      "end_time": "2025-08-30T13:50:47.948805501Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_3",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.247953792Z",
+      "end_time": "2025-08-30T13:50:47.948829001Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_1",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.046143001Z",
+      "end_time": "2025-08-30T13:50:47.948845209Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_2",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.147709209Z",
+      "end_time": "2025-08-30T13:50:47.948845626Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_5",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.450206543Z",
+      "end_time": "2025-08-30T13:50:47.948897667Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_6",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.550888126Z",
+      "end_time": "2025-08-30T13:50:47.948898751Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_7",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.651257334Z",
+      "end_time": "2025-08-30T13:50:47.948899167Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_8",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.752935334Z",
+      "end_time": "2025-08-30T13:50:47.948910709Z",
+      "success": true
+    },
+    {
+      "call_id": "load_test_call_9",
+      "channel_id": "test-channel-id",
+      "start_time": "2025-08-30T13:49:48.853277001Z",
+      "end_time": "2025-08-30T13:50:47.948932042Z",
+      "success": true
+    }
+  ],
+  "avg_latency_p50": 0,
+  "avg_latency_p95": 0,
+  "avg_latency_p99": 0,
+  "avg_late_ratio": 0,
+  "avg_packet_loss": 0
+}
